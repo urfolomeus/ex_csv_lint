@@ -1,0 +1,28 @@
+Features:
+  The rules are documented in the standard [RFC4180](http://tools.ietf.org/html/rfc4180).
+
+  General:
+   ☐ check encoding (use UTF-8)
+   ☐ check that the file is comma separated
+   ☐ check that all the line breaks are the same
+   ☐ check that all the line breaks are CRLF
+   ☐ check that there is a header line
+   ☐ check that all the columns have a name
+   ☐ check that all the column names are different
+   ☐ check that every row in the file has the same number of columns
+   ☐ check that none of the rows are blank
+   ☐ check that there is no whitespace between commas
+   ☐ check that all the quotes match up (i.e. there is an even number)
+   ☐ check that there are no double quotes within fields (i.e. if there are more than two quotes or the two quotes are not the first and last chars)
+   ☐ check that the value in a column has the same type in all rows
+ If fetched from a URL:
+   ☐ check that the file exists (we don't get a 404 Not Found response)
+   ☐ check that the Content-Type is set to "text/csv"
+   ☐ check that the charset parameter is set to "UTF-8"
+ If a file is uploaded:
+   ☐ check that the file has the extension .csv
+ Extra credit:
+   ☐ allow JSON schema to be uploaded and validated against
+     ☐ check that CSV meets specification in schema
+     ☐ check that no columns are missing
+     ☐ check that there are no extra columns in the CSV
