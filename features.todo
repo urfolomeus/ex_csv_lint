@@ -2,6 +2,7 @@ Features:
   The rules are documented in the standard [RFC4180](http://tools.ietf.org/html/rfc4180).
 
   General:
+   ✔ check that there's content @done (15-07-06 07:07)
    ☐ check encoding (use UTF-8)
    ☐ check that the file is comma separated
    ☐ check that all the line breaks are the same
